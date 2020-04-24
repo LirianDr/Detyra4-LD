@@ -1,0 +1,273 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 { font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+h2 {  font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+p {  font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+
+.header {  
+    background-image: 
+        linear-gradient(
+      rgba(0,0,204,0.58), 
+      rgba(0,0,204,0.58)
+        ), 
+        url(people.jpg);
+    width:  100%; 
+    height: 700px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.headerCon { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+
+.headerCon h1{
+    margin: 20px;
+    color: white;
+}
+
+.headerCon h2{
+    color: white;
+}
+
+#butoni1 {
+  background-color: purple;
+  color: white;
+  padding: 10px 10px;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+#butoni2 {
+  background-color: pink;
+  color: white;
+  padding: 10px 10px;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+.solutions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    height: 500px;
+}
+
+.solutions h1 {
+    margin: 20px;
+}
+
+hr {
+    border: 2px solid darkblue;
+    width: 300px;
+    margin: 10px;
+}
+.solutionsBox {
+    display: flex;
+    width: 80%;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.solutionsBox h2 {
+    margin: 20px;
+}
+
+.solutionsBox1 {
+   padding:30px;
+}
+.solutionsBox2 {
+   padding:30px;
+}
+.solutionsBox3 {
+   padding:30px;
+}
+
+.video {
+    background-image: 
+        linear-gradient(
+      rgba(0,0,204,0.55), 
+      rgba(0,0,204,0.55)
+        ), 
+        url(UBT-LOGO.png);
+    width:  100%; 
+    height: 300px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.play {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    height: 300px;
+}
+.features h1 {
+    margin: 10px;
+}
+.featuresBox1{
+    padding: 60px;
+}
+.featuresBox2{
+    padding: 60px;
+}
+.featuresBox3{
+    padding: 60px;
+}
+.featuresBox4{
+    padding: 60px;
+}
+
+.learnmore {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9e9e9;
+}
+
+.learnmore img {
+    width: 250px;
+    height: auto;
+}
+
+.learnmoreinfo {
+    width: 300px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.learnmoreinfo h1{
+    margin-bottom: 50px;
+}
+
+.learnmoreinfo button {
+   background-color: purple;
+  color: white;
+  padding: 8px 10px;
+  font-size: 12px;
+  border-radius: 15px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.footer {  
+    background-image: 
+        linear-gradient(
+      rgba(0,0,204,0.55), 
+      rgba(0,0,204,0.55)
+        ), 
+        url(UBT-LOGO.png);
+    width:  100%; 
+    height: 500px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.progresi {
+    width: 300px;
+}
+
+.progressbar {
+      background-color: white;;
+      border-radius: 10px; 
+      padding: 3px;
+    }
+    
+.thirty {
+       background-color: mediumpurple;
+       width: 30%; 
+       height: 10px;
+       border-radius: 10px;
+}
+
+.fifty {
+       background-color: mediumpurple;
+       width: 50%; 
+       height: 10px;
+       border-radius: 10px;
+}
+
+.sixty {
+       background-color: mediumpurple;
+       width: 60%; 
+       height: 10px;
+       border-radius: 10px;
+}
+
+
+.footer {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.progresi {
+    width: 400px;
+    margin-right: 50px;
+}
+
+.progresi h1 {
+    margin-bottom: 30px;
+}
+
+.perqindja{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.perqindja p{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.footerFeatures{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerFeaturesBox{
+    width: 300px;
+    margin: 30px;
+}
+
+.footerFeaturesBox p {
+    color: white;
+}
+
+
+.line {
+    border: 6px dotted white;
+    width: 200px;
+    margin: 10px;
+}
